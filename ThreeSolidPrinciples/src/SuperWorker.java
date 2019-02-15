@@ -9,12 +9,20 @@
 package ThreeSolidPrinciples;
 
 
-public class SuperWorker implements IWorker{
-	public void work() {
-		//.... working much more
+public class SuperWorker extends BaseWorker implements IEat, ISick{
+	
+	public void work()
+	{
+		System.out.format("Work method from the SuperWorker class\n");
 	}
-
-	public void eat() {
-		//.... eating in launch break
+	public void IEat()
+	{
+		System.out.format("IEat method from the SuperWorker class\n");
 	}
+	public void ISick()
+	{
+		System.out.format("ISick method from the SuperWorker class\n");
+	}
+	
+	
 }

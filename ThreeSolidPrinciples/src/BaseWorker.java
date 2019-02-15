@@ -6,7 +6,7 @@ public class BaseWorker {
 	
 	public void work()
 	{
-		// work method
+		System.out.format("BaseWorker work\n");
 	}
 
 }

@@ -8,9 +8,11 @@
 
 package ThreeSolidPrinciples;
 
-class Robot implements IWorkable
+class Robot extends BaseWorker implements IReboot
 {
-  Robot() {}
+
+	public void reboot() {
+		System.out.print("I am rebooting your life. \n Try better next time.");
+	}
   
-  public void work() {}
 }

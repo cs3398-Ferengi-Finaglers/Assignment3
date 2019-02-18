@@ -18,10 +18,10 @@ public class ThreeSolidMain
 {   
 
    public static Manager tsManager = new Manager();
-   public static BaseWorker robotWorker = new Robot();
-   public static BaseWorker superWorker = new SuperWorker();
-   public static BaseWorker worker = new Worker();
-   public static BaseWorker tempWorker = new TempWorker();
+   public static Robot robotWorker = new Robot();
+   public static SuperWorker superWorker = new SuperWorker();
+   public static Worker worker = new Worker();
+   public static TempWorker tempWorker = new TempWorker();
    //public static Manager projectManager = new ProjectManager();
    //public static Manager productManager = new ProductManager();
 

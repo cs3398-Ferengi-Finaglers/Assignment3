@@ -13,5 +13,5 @@ package ThreeSolidPrinciples;
 
 public interface IWorker {
 	public void work();
-	public void eat();
+	//public void eat();
 } 

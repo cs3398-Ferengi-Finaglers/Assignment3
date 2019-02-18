@@ -18,6 +18,12 @@ public class ThreeSolidMain
 {   
 
    public static Manager tsManager = new Manager();
+   public static BaseWorker robotWorker = new Robot();
+   public static BaseWorker superWorker = new SuperWorker();
+   public static BaseWorker worker = new Worker();
+   public static BaseWorker tempWorker = new TempWorker();
+   //public static Manager projectManager = new ProjectManager();
+   //public static Manager productManager = new ProductManager();
 
    // The entry main() method
    public static void main(String[] args) 
@@ -31,8 +37,33 @@ public class ThreeSolidMain
       {
          main_except.printStackTrace();
       }
+      System.out.println("Calling work methods by having manager manage.");
+      //I very much want to just make an array of BaseWorker and use a for loop
+      tsManager.setWorker(robotWorker);
+      tsManager.manage();
+      tsManager.setWorker(superWorker);
+      tsManager.manage();
+      tsManager.setWorker(worker);
+      tsManager.manage();
+      tsManager.setWorker(tempWorker);
+      tsManager.manage();
 
-            try 
+      System.out.println("Some of the workers are hungry.");
+      
+      worker.eat();
+      superWorker.eat();
+      tempWorker.eat();
+      
+      System.out.println("Now since they ate bad guacomole, some of the workers are sick.");
+      
+      worker.sick();
+      superWorker.eat();
+      tempWorker.sick();
+      
+      System.out.println("Nobody paid attnetion to the robot now it's not working.");
+      robotWorker.reboot();
+      
+      try 
       {
          System.out.format("Stopping ... \n");               
       } 

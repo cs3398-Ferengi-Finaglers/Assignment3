@@ -7,12 +7,16 @@
 package ThreeSolidPrinciples;
 
 
-public class Worker implements IWorker{
+public class Worker extends BaseWorker implements IEat, ISick{
 	public void work() {
-		// ....working
+		System.out.println("I am a worker. \n So you should pay me. \n");
 	}
 
 	public void eat() {
-		//.... eating in launch break
+		System.out.println("This is a paid lunch, right?");
+	}
+	
+	public void sick() {
+		System.out.println("How many sick days do I have left?");
 	}
 }

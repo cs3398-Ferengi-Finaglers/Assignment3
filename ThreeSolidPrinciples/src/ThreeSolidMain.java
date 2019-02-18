@@ -60,9 +60,12 @@ public class ThreeSolidMain
       superWorker.eat();
       tempWorker.sick();
       
-      System.out.println("Nobody paid attnetion to the robot now it's not working.");
+      System.out.println("Nobody paid attnetion to the robot now it's not working.\n");
       robotWorker.reboot();
       
+      System.out.println("The managers powwowed and decided what to do.");
+      //projectManager.schedulework();
+      //productManager.defineproduct();
       try 
       {
          System.out.format("Stopping ... \n");               

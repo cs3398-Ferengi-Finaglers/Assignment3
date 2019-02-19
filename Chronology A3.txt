@@ -15,7 +15,14 @@ Chronology Explanation/Analysis:
 This project was a success because we have finished it and it ran like it should have. However, the team work aspect of the project is needing work. I believe that lands us somewhere in the middle of failure and success. As a team, we have found it extremely difficult to keep the work separated by their assigned teammates. This was because the work is so intertwined that it is very difficult to accomplish anything with just one assigned part of the code. This caused some of the teammates to take over another teammates’ code. 
 
 Lessons:
-This project open this team’s eyes on how difficult it is to teamwork on a single program. The two major lessons learned by this team during this exercise are as follows: 
+This project open this team’s eyes on how difficult it is to teamwork on a single program. The following are some of the major lessons learned by this team: 
+1. Setting class function names and return values ahead of time allows people to work on different parts without having the function it is dependent on actually being finished yet.
+2. Figuring out dependencies ahead of time lets you prioritize what needs to be done first.
+3. Had to learn how ant works as far as how it assigns file locations.
+4. Coordinating pulls and pushes to not overwrite changes made by other team members.
+5. In the process of learning workflow and how to properly merge repositories more efficiently.
+
+The two major areas of improvement are as follows: 
 
 1. We need to become better communicators. Because this project’s classes were so intertwined, it was difficult for one person to run their part of the program without having another teammates’’ code already be ready for them to use. In order to achieve that, this team has to work on creating sub-groups that work on similar code and communicate as needed with each other. 
 1a. In order to achieve this goal, we would need to not only assign parts of the project, but also take the time to talk to people whose code will be integrated with and create sub-groups

@@ -1,4 +1,3 @@
-//Karen Proft
 package ThreeSolidPrinciples;
 
 public class ProductManager extends Manager{

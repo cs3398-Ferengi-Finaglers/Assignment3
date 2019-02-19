@@ -22,8 +22,8 @@ public class ThreeSolidMain
    public static SuperWorker superWorker = new SuperWorker();
    public static Worker worker = new Worker();
    public static TempWorker tempWorker = new TempWorker();
-   //public static Manager projectManager = new ProjectManager();
-   //public static Manager productManager = new ProductManager();
+   public static ProjectManager projectManager = new ProjectManager();
+   public static ProductManager productManager = new ProductManager();
 
    // The entry main() method
    public static void main(String[] args) 
@@ -64,8 +64,8 @@ public class ThreeSolidMain
       robotWorker.reboot();
       
       System.out.println("The managers powwowed and decided what to do.");
-      //projectManager.schedulework();
-      //productManager.defineproduct();
+      projectManager.schedulework();
+      productManager.defineproduct();
       try 
       {
          System.out.format("Stopping ... \n");               

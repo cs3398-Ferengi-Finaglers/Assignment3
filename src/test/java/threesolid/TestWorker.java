@@ -5,7 +5,8 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class TestWorker {
-
+	private Manager m = new Manager();
+    private Worker w = new Worker();
 	@DisplayName("Work Method Test")
 	@Test
 	public void testWorkMethod() {
@@ -14,4 +15,22 @@ public class TestWorker {
 
    }
 
+
+
+@DisplayName("Jacob's Passing Test")
+	@Test
+	public void newtestJAPWPass() {
+			 
+             assertSame(w,w,"They are the same worker");
+
+   }
+   
+@DisplayName("Jacob's Failure")
+	@Test
+	public void newtestJAPWFail() {
+	
+	assertNotSame(w,w, "They are still the same worker");
+	
+	}
+   
 }

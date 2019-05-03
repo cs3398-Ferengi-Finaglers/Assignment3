@@ -2,8 +2,8 @@
 package threesolid;
 
 public class ProjectManager extends Manager{
-    public void schedulework()
+    public String schedulework()
 	{
-		System.out.format("Project manager is now scheduling work\n");
+		return "Project manager is now scheduling work\n";
 	}
 }

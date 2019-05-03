@@ -1,8 +1,8 @@
 package threesolid;
 
 public class ProductManager extends Manager{
-    public void defineproduct()
+    public String defineproduct()
 	{
-		System.out.format("Product manager is now defining products\n");
+		return "Product manager is now defining products\n";
 	}
 }

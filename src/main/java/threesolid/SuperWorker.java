@@ -11,17 +11,17 @@ package threesolid;
 
 public class SuperWorker extends BaseWorker implements IEat, ISick{
 	
-	public void work()
+	public String work()
 	{
-		System.out.format("Work method from the SuperWorker class\n");
+		return "Work method from the SuperWorker class\n";
 	}
-	public void eat()
+	public String eat()
 	{
-		System.out.format("IEat method from the SuperWorker class\n");
+		return "IEat method from the SuperWorker class\n";
 	}
-	public void sick()
+	public String sick()
 	{
-		System.out.format("ISick method from the SuperWorker class\n");
+		return "ISick method from the SuperWorker class\n";
 	}
 	
 	

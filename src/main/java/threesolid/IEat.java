@@ -3,5 +3,5 @@
 package threesolid;
 
 public interface IEat {
-	public void eat();
+	public String eat();
 }

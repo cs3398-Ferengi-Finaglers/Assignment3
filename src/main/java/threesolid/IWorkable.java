@@ -6,5 +6,5 @@ package threesolid;
 
 abstract interface IWorkable
 {
-  public abstract void work();
+  public abstract String work();
 }

@@ -3,17 +3,17 @@ package threesolid;
 
 public class TempWorker extends BaseWorker implements IEat, ISick{
 	
-	public void work()
+	public String work()
 	{
-		System.out.format("Work method from the TempWorker class\n");
+		return "Work method from the TempWorker class\n";
 	}
-	public void eat()
+	public String eat()
 	{
-		System.out.format("IEat method from the TempWorker class\n");
+		return "IEat method from the TempWorker class\n";
 	}
-	public void sick()
+	public String sick()
 	{
-		System.out.format("ISick method from the TempWorker class\n");
+		return "ISick method from the TempWorker class\n";
 	}
 	
 }

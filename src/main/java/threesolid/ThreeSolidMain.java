@@ -50,22 +50,22 @@ public class ThreeSolidMain
 
       System.out.println("Some of the workers are hungry.");
       
-      worker.eat();
-      superWorker.eat();
-      tempWorker.eat();
+      System.out.println(worker.eat());
+      System.out.println(superWorker.eat());
+      System.out.println(tempWorker.eat());
       
       System.out.println("Now since they ate bad guacomole, some of the workers are sick.");
       
-      worker.sick();
-      superWorker.eat();
-      tempWorker.sick();
+      System.out.println(worker.sick());
+      System.out.println(superWorker.eat());
+      System.out.println(tempWorker.sick());
       
       System.out.println("Nobody paid attnetion to the robot now it's not working.\n");
-      robotWorker.reboot();
+      System.out.println(robotWorker.reboot());
       
       System.out.println("The managers powwowed and decided what to do.");
-      projectManager.schedulework();
-      productManager.defineproduct();
+      System.out.println(projectManager.schedulework());
+      System.out.println(productManager.defineproduct());
       try 
       {
          System.out.format("Stopping ... \n");               

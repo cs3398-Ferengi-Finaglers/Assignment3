@@ -6,5 +6,5 @@ package threesolid;
 
 abstract interface IFeedable
 {
-  public abstract void eat();
+  public abstract String eat();
 }

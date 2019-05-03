@@ -19,7 +19,7 @@ public class TestWorker {
 
 @DisplayName("Jacob's Passing Test")
 	@Test
-	public void newtestJAPWPass() {
+	public void newtestJAPWorkerPass() {
 			 
              assertSame(w,w,"They are the same worker");
 
@@ -27,7 +27,7 @@ public class TestWorker {
    
 @DisplayName("Jacob's Failure")
 	@Test
-	public void newtestJAPWFail() {
+	public void newtestJAPWorkerFail() {
 	
 	assertNotSame(w,w, "They are still the same worker");
 	
